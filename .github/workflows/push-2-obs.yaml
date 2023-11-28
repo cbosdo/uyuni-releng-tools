@@ -1,7 +1,11 @@
+# SPDX-FileCopyrightText: 2023 SUSE LLC
+#
+# SPDX-License-Identifier: Apache-2.0
+
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push_to_obs:
